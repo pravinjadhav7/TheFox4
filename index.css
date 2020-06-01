@@ -7,10 +7,11 @@ html {
 }
 
 body {
-    font-family: Poppins, "sans-serif";
+    font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 0;
     margin: 0;
     font-size: 12px;
+    line-height: 2;
 }
 
 ::-webkit-scrollbar {
@@ -108,11 +109,18 @@ body {
     padding-left: 10%;
 }
 
-.phone{
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+    .navbar-menu-item-contact {
+        width: 70%;
+    }
+}
+
+
+.phone {
     padding-right: 20px;
 }
 
-.navbar-menu-item-contact div{
+.navbar-menu-item-contact div {
     margin-left: 10px;
 }
 
@@ -148,7 +156,7 @@ a span {
 }
 
 .h1 {
-    font-family: "Roboto";
+
     font-size: 50px;
     line-height: 58px;
     font-weight: 700;
@@ -281,7 +289,6 @@ a span {
 }
 
 .about-heading {
-    font-family: "Roboto";
     font-size: 50px;
     line-height: 58px;
 }
@@ -302,7 +309,7 @@ a span {
 }
 
 .page-text {
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 15px;
 }
 
@@ -557,13 +564,11 @@ a span {
 }
 
 .layer {
-    background-color: #215df0;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.8;
     padding: 10%;
     display: flex;
     justify-content: space-between;
@@ -585,7 +590,7 @@ a span {
 
 .plan {
     background: white;
-    color: black ;
+    color: black;
     width: 48%;
     text-align: center;
     padding: 30px;
@@ -593,18 +598,20 @@ a span {
 }
 
 .plan-price {
-    color:#1a73e8 ;
+    color: #1a73e8;
     font-size: 65px;
     font-weight: bold;
     line-height: 20px;
     padding-top: 20px;
     padding-bottom: 30px;
 }
+
 sup.dollar {
     font-size: 20px;
     padding-right: 15px;
     color: black;
 }
+
 span.mo {
     font-size: 20px;
     padding-left: 15px;
@@ -612,7 +619,7 @@ span.mo {
 }
 
 
-.plan-text{
+.plan-text {
     padding-bottom: 20px;
     color: #999;
 }
@@ -637,7 +644,7 @@ button.start-now {
     font-weight: bold;
 }
 
-button:focus{
+button:focus {
     outline: none;
 }
 
